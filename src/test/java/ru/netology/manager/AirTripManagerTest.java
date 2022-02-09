@@ -10,10 +10,10 @@ import static org.junit.jupiter.api.Assertions.*;
 class AirRouteManagerTest {
     private AirTripRepository repository = new AirTripRepository();
     private AirTripManager manager = new AirTripManager(repository);
-    private AirTrip first = new AirTrip(1, 10_000, "SVO", "LED", 60);
-    private AirTrip second = new AirTrip(2, 20_000, "SVO", "LED", 60);
+    private AirTrip first = new AirTrip(1, 10000, "SVO", "LED", 60);
+    private AirTrip second = new AirTrip(2, 15000, "SVO", "LED", 60);
     private AirTrip third = new AirTrip(3, 5000, "GOJ", "DME", 75);
-    private AirTrip forth = new AirTrip(4, 25_000, "VKO", "NSK", 240);
+    private AirTrip forth = new AirTrip(4, 25000, "VKO", "NSK", 240);
 
     @BeforeEach
     public void setUp() {

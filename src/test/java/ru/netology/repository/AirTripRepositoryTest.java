@@ -10,8 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class AirTripRepositoryTest {
     private AirTripRepository repository = new AirTripRepository();
-    private AirTrip first = new AirTrip(1, 10_000, "SVO", "LED", 60);
-    private AirTrip second = new AirTrip(2, 20_000, "SVO", "LED", 60);
+    private AirTrip first = new AirTrip(1, 10000, "SVO", "LED", 60);
+    private AirTrip second = new AirTrip(2, 15000, "SVO", "LED", 60);
     private AirTrip third = new AirTrip(3, 5000, "GOJ", "DME", 75);
 
     @BeforeEach
