@@ -28,11 +28,6 @@ class AirTripRepositoryTest {
         repository.save(sixth);
     }
 
-    @Test
-    public void shouldThrowCheckedException() {
-        int idToRemove = 4;
-        assertThrows(NotFoundException.class, () -> repository.removeById(idToRemove));
-    }
 
     @Test
     public void shouldNotThrowCheckedException() {
